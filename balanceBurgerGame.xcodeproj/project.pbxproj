@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B21F58E1966693A0093AB3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B21F58D1966693A0093AB3B /* Foundation.framework */; };
+		8B21F5901966693A0093AB3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B21F58F1966693A0093AB3B /* CoreGraphics.framework */; };
+		8B21F5921966693A0093AB3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B21F5911966693A0093AB3B /* UIKit.framework */; };
+		8B21F5981966693A0093AB3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B21F5961966693A0093AB3B /* InfoPlist.strings */; };
+		8B21F59A1966693A0093AB3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B21F5991966693A0093AB3B /* main.m */; };
+		8B21F59E1966693A0093AB3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B21F59D1966693A0093AB3B /* AppDelegate.m */; };
+		8B21F5A11966693A0093AB3B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B21F59F1966693A0093AB3B /* Main_iPhone.storyboard */; };
+		8B21F5A41966693A0093AB3B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B21F5A21966693A0093AB3B /* Main_iPad.storyboard */; };
+		8B21F5A71966693A0093AB3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B21F5A61966693A0093AB3B /* ViewController.m */; };
+		8B21F5A91966693A0093AB3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B21F5A81966693A0093AB3B /* Images.xcassets */; };
+		8B21F5B01966693A0093AB3B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B21F5AF1966693A0093AB3B /* XCTest.framework */; };
+		8B21F5B11966693A0093AB3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B21F58D1966693A0093AB3B /* Foundation.framework */; };
+		8B21F5B21966693A0093AB3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B21F5911966693A0093AB3B /* UIKit.framework */; };
+		8B21F5BA1966693A0093AB3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B21F5B81966693A0093AB3B /* InfoPlist.strings */; };
+		8B21F5BC1966693A0093AB3B /* balanceBurgerGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B21F5BB1966693A0093AB3B /* balanceBurgerGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B21F5B31966693A0093AB3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B21F5821966693A0093AB3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B21F5891966693A0093AB3B;
+			remoteInfo = balanceBurgerGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B21F58A1966693A0093AB3B /* balanceBurgerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = balanceBurgerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B21F58D1966693A0093AB3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B21F58F1966693A0093AB3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8B21F5911966693A0093AB3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8B21F5951966693A0093AB3B /* balanceBurgerGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "balanceBurgerGame-Info.plist"; sourceTree = "<group>"; };
+		8B21F5971966693A0093AB3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B21F5991966693A0093AB3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B21F59B1966693A0093AB3B /* balanceBurgerGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "balanceBurgerGame-Prefix.pch"; sourceTree = "<group>"; };
+		8B21F59C1966693A0093AB3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B21F59D1966693A0093AB3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B21F5A01966693A0093AB3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		8B21F5A31966693A0093AB3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		8B21F5A51966693A0093AB3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B21F5A61966693A0093AB3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B21F5A81966693A0093AB3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B21F5AE1966693A0093AB3B /* balanceBurgerGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = balanceBurgerGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B21F5AF1966693A0093AB3B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8B21F5B71966693A0093AB3B /* balanceBurgerGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "balanceBurgerGameTests-Info.plist"; sourceTree = "<group>"; };
+		8B21F5B91966693A0093AB3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B21F5BB1966693A0093AB3B /* balanceBurgerGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = balanceBurgerGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B21F5871966693A0093AB3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B21F5901966693A0093AB3B /* CoreGraphics.framework in Frameworks */,
+				8B21F5921966693A0093AB3B /* UIKit.framework in Frameworks */,
+				8B21F58E1966693A0093AB3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B21F5AB1966693A0093AB3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B21F5B01966693A0093AB3B /* XCTest.framework in Frameworks */,
+				8B21F5B21966693A0093AB3B /* UIKit.framework in Frameworks */,
+				8B21F5B11966693A0093AB3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B21F5811966693A0093AB3B = {
+			isa = PBXGroup;
+			children = (
+				8B21F5931966693A0093AB3B /* balanceBurgerGame */,
+				8B21F5B51966693A0093AB3B /* balanceBurgerGameTests */,
+				8B21F58C1966693A0093AB3B /* Frameworks */,
+				8B21F58B1966693A0093AB3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B21F58B1966693A0093AB3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B21F58A1966693A0093AB3B /* balanceBurgerGame.app */,
+				8B21F5AE1966693A0093AB3B /* balanceBurgerGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B21F58C1966693A0093AB3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B21F58D1966693A0093AB3B /* Foundation.framework */,
+				8B21F58F1966693A0093AB3B /* CoreGraphics.framework */,
+				8B21F5911966693A0093AB3B /* UIKit.framework */,
+				8B21F5AF1966693A0093AB3B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B21F5931966693A0093AB3B /* balanceBurgerGame */ = {
+			isa = PBXGroup;
+			children = (
+				8B21F59C1966693A0093AB3B /* AppDelegate.h */,
+				8B21F59D1966693A0093AB3B /* AppDelegate.m */,
+				8B21F59F1966693A0093AB3B /* Main_iPhone.storyboard */,
+				8B21F5A21966693A0093AB3B /* Main_iPad.storyboard */,
+				8B21F5A51966693A0093AB3B /* ViewController.h */,
+				8B21F5A61966693A0093AB3B /* ViewController.m */,
+				8B21F5A81966693A0093AB3B /* Images.xcassets */,
+				8B21F5941966693A0093AB3B /* Supporting Files */,
+			);
+			path = balanceBurgerGame;
+			sourceTree = "<group>";
+		};
+		8B21F5941966693A0093AB3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B21F5951966693A0093AB3B /* balanceBurgerGame-Info.plist */,
+				8B21F5961966693A0093AB3B /* InfoPlist.strings */,
+				8B21F5991966693A0093AB3B /* main.m */,
+				8B21F59B1966693A0093AB3B /* balanceBurgerGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B21F5B51966693A0093AB3B /* balanceBurgerGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B21F5BB1966693A0093AB3B /* balanceBurgerGameTests.m */,
+				8B21F5B61966693A0093AB3B /* Supporting Files */,
+			);
+			path = balanceBurgerGameTests;
+			sourceTree = "<group>";
+		};
+		8B21F5B61966693A0093AB3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B21F5B71966693A0093AB3B /* balanceBurgerGameTests-Info.plist */,
+				8B21F5B81966693A0093AB3B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B21F5891966693A0093AB3B /* balanceBurgerGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B21F5BF1966693A0093AB3B /* Build configuration list for PBXNativeTarget "balanceBurgerGame" */;
+			buildPhases = (
+				8B21F5861966693A0093AB3B /* Sources */,
+				8B21F5871966693A0093AB3B /* Frameworks */,
+				8B21F5881966693A0093AB3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = balanceBurgerGame;
+			productName = balanceBurgerGame;
+			productReference = 8B21F58A1966693A0093AB3B /* balanceBurgerGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B21F5AD1966693A0093AB3B /* balanceBurgerGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B21F5C21966693A0093AB3B /* Build configuration list for PBXNativeTarget "balanceBurgerGameTests" */;
+			buildPhases = (
+				8B21F5AA1966693A0093AB3B /* Sources */,
+				8B21F5AB1966693A0093AB3B /* Frameworks */,
+				8B21F5AC1966693A0093AB3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B21F5B41966693A0093AB3B /* PBXTargetDependency */,
+			);
+			name = balanceBurgerGameTests;
+			productName = balanceBurgerGameTests;
+			productReference = 8B21F5AE1966693A0093AB3B /* balanceBurgerGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B21F5821966693A0093AB3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Yoshinori Murata";
+				TargetAttributes = {
+					8B21F5AD1966693A0093AB3B = {
+						TestTargetID = 8B21F5891966693A0093AB3B;
+					};
+				};
+			};
+			buildConfigurationList = 8B21F5851966693A0093AB3B /* Build configuration list for PBXProject "balanceBurgerGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B21F5811966693A0093AB3B;
+			productRefGroup = 8B21F58B1966693A0093AB3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B21F5891966693A0093AB3B /* balanceBurgerGame */,
+				8B21F5AD1966693A0093AB3B /* balanceBurgerGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B21F5881966693A0093AB3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B21F5A41966693A0093AB3B /* Main_iPad.storyboard in Resources */,
+				8B21F5A91966693A0093AB3B /* Images.xcassets in Resources */,
+				8B21F5A11966693A0093AB3B /* Main_iPhone.storyboard in Resources */,
+				8B21F5981966693A0093AB3B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B21F5AC1966693A0093AB3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B21F5BA1966693A0093AB3B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B21F5861966693A0093AB3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B21F5A71966693A0093AB3B /* ViewController.m in Sources */,
+				8B21F59E1966693A0093AB3B /* AppDelegate.m in Sources */,
+				8B21F59A1966693A0093AB3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B21F5AA1966693A0093AB3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B21F5BC1966693A0093AB3B /* balanceBurgerGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B21F5B41966693A0093AB3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B21F5891966693A0093AB3B /* balanceBurgerGame */;
+			targetProxy = 8B21F5B31966693A0093AB3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B21F5961966693A0093AB3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B21F5971966693A0093AB3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8B21F59F1966693A0093AB3B /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B21F5A01966693A0093AB3B /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8B21F5A21966693A0093AB3B /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B21F5A31966693A0093AB3B /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8B21F5B81966693A0093AB3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B21F5B91966693A0093AB3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B21F5BD1966693A0093AB3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B21F5BE1966693A0093AB3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B21F5C01966693A0093AB3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "balanceBurgerGame/balanceBurgerGame-Prefix.pch";
+				INFOPLIST_FILE = "balanceBurgerGame/balanceBurgerGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8B21F5C11966693A0093AB3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "balanceBurgerGame/balanceBurgerGame-Prefix.pch";
+				INFOPLIST_FILE = "balanceBurgerGame/balanceBurgerGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8B21F5C31966693A0093AB3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/balanceBurgerGame.app/balanceBurgerGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "balanceBurgerGame/balanceBurgerGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "balanceBurgerGameTests/balanceBurgerGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8B21F5C41966693A0093AB3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/balanceBurgerGame.app/balanceBurgerGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "balanceBurgerGame/balanceBurgerGame-Prefix.pch";
+				INFOPLIST_FILE = "balanceBurgerGameTests/balanceBurgerGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B21F5851966693A0093AB3B /* Build configuration list for PBXProject "balanceBurgerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B21F5BD1966693A0093AB3B /* Debug */,
+				8B21F5BE1966693A0093AB3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B21F5BF1966693A0093AB3B /* Build configuration list for PBXNativeTarget "balanceBurgerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B21F5C01966693A0093AB3B /* Debug */,
+				8B21F5C11966693A0093AB3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B21F5C21966693A0093AB3B /* Build configuration list for PBXNativeTarget "balanceBurgerGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B21F5C31966693A0093AB3B /* Debug */,
+				8B21F5C41966693A0093AB3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B21F5821966693A0093AB3B /* Project object */;
+}
