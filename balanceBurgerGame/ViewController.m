@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+//タイトルシーンのtitleSKScene.hをimportする
+#import "titleSKScene.h"
 
 @interface ViewController ()
 
@@ -18,12 +20,24 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    //SKViewを用意する
+    SKView *skView = (SKView *)self.view;
+    //SKSceneを作る
+    SKScene *scene = [titleSKScene sceneWithSize:skView.bounds.size];
+    scene.scaleMode = SKSceneScaleModeAspectFill;
+    //SKViewに作ったシーンを表示する
+    [skView presentScene:scene];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+//-- ステータスバーを非表示
+-(BOOL)prefersStatusBarHidden{
+    return YES;
 }
 
 @end
